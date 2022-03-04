@@ -204,7 +204,7 @@ if ( ! function_exists( 'twenty_twenty_one_setup' ) ) {
 		$dark_gray = '#28303D';
 		$gray      = '#39414D';
 		$green     = '#D1E4DD';
-		$blue      = '#D1DFE4';
+		$blue      = '#2a74ed';
 		$purple    = '#D1D1E4';
 		$red       = '#E4D1D1';
 		$orange    = '#E4DAD1';
@@ -400,6 +400,9 @@ function twenty_twenty_one_scripts() {
 	// Note, the is_IE global variable is defined by WordPress and is used
 	// to detect if the current browser is internet explorer.
 	global $is_IE, $wp_scripts;
+
+	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap', false );
+
 	if ( $is_IE ) {
 		// If IE 11 or below, use a flattened stylesheet with static values replacing CSS Variables.
 		wp_enqueue_style( 'twenty-twenty-one-style', get_template_directory_uri() . '/assets/css/ie.css', array(), wp_get_theme()->get( 'Version' ) );

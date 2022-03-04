@@ -11,18 +11,18 @@
 	}
 
 	@include media(mobile) {
-		padding-top: calc(var(--global--spacing-vertical) / 0.75); // 40px
+		//padding-top: calc(var(--global--spacing-vertical) / 0.75); // 40px
 	}
 
 	@include media(desktop) {
-		padding-top: calc(2.4 * var(--global--spacing-vertical)); // 60px
+		//padding-top: calc(2.4 * var(--global--spacing-vertical)); // 60px
 	}
 }
 
 // Site branding
 .site-branding {
 	color: var(--branding--color-text);
-	margin-right: 140px;
+	margin-right: 180px;
 
 	&:last-child {
 		margin-right: 0;
@@ -31,8 +31,8 @@
 	}
 
 	@include media(mobile) {
-		margin-right: initial;
-		margin-top: 4px; // Align the baseline of the site title with the primary menu
+		//margin-right: initial; 
+		//margin-top: 4px; // Align the baseline of the site title with the primary menu
 	}
 }
 
@@ -199,4 +199,8 @@
 			justify-content: center;
 		}
 	}
+}
+
+.site a {
+	text-decoration: none;
 }
