@@ -101,11 +101,11 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 :root {
 
 	/* Font Family */
-	--global--font-primary: "Roboto", sans-serif;
-	--global--font-secondary: "Roboto", sans-serif;
+	--global--font-primary: roboto, sans-serif;
+	--global--font-secondary: roboto, sans-serif;
 
 	/* Font Size */
-	--global--font-size-base: 1.25rem;
+	--global--font-size-base: 1rem;
 	--global--font-size-xs: 1rem;
 	--global--font-size-sm: 1.125rem;
 	--global--font-size-md: 1.25rem;
@@ -156,7 +156,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 	/* Colors */
 	--global--color-black: #000;
 	--global--color-dark-gray: #28303d;
-	--global--color-gray: #39414d;
+	--global--color-gray: #999;
 	--global--color-light-gray: #f0f0f0;
 	--global--color-green: #d1e4dd;
 	--global--color-blue: #2a74de;
@@ -2017,7 +2017,6 @@ input[type=reset]:disabled,
 
 .wp-block-cover,
 .wp-block-cover-image {
-	background-color: var(--cover--color-background);
 	min-height: var(--cover--height);
 	margin-top: inherit;
 	margin-bottom: inherit;
@@ -2167,6 +2166,15 @@ input[type=reset]:disabled,
 .wp-block-cover[class*=-background-color][class] .wp-block-cover__inner-container,
 .wp-block-cover-image[class*=-background-color][class] .wp-block-cover__inner-container {
 	background-color: unset;
+}
+
+.wp-block-cover.is-style-default {
+	margin-top: 90px;
+	padding-top: 0;
+}
+
+.has-offwhite-background-color {
+	background: #f6f9ff;
 }
 
 .wp-block-file a.wp-block-file__button:active,
@@ -2410,6 +2418,16 @@ h6,
 		margin-left: 0;
 		margin-right: 0;
 	}
+}
+
+.img-trans {
+	transition: 0.3s;
+}
+
+.img-trans :hover {
+	cursor: pointer;
+	opacity: 0.5;
+	transform: rotate(-15deg);
 }
 
 .wp-block-latest-comments {

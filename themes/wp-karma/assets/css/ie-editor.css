@@ -140,7 +140,7 @@ blockquote > *:last-child {
 
 blockquote p {
 	letter-spacing: normal;
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.25rem;
 	font-style: normal;
 	font-weight: 700;
@@ -255,7 +255,7 @@ figcaption,
 }
 
 select {
-	border: 3px solid #39414d;
+	border: 3px solid #999;
 	border-radius: 0;
 	color: #28303d;
 	font-size: 1.125rem;
@@ -268,7 +268,7 @@ select {
 }
 
 select:focus {
-	border: 3px solid #39414d;
+	border: 3px solid #999;
 	border-radius: 0;
 	color: #28303d;
 	font-size: 1.125rem;
@@ -350,8 +350,8 @@ a:hover {
 	border-radius: 0;
 	cursor: pointer;
 	font-weight: 500;
-	font-family: "Roboto", sans-serif;
-	font-size: 1.25rem;
+	font-family: roboto, sans-serif;
+	font-size: 1rem;
 	line-height: 1.5;
 	padding: 15px 30px;
 	text-decoration: none;
@@ -392,7 +392,7 @@ a:hover {
 .wp-block-button__link:disabled {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-color: rgba(255, 255, 255, 0.5);
-	color: #39414d;
+	color: #999;
 }
 
 /**
@@ -512,7 +512,6 @@ a:hover {
 
 .wp-block-cover,
 .wp-block-cover-image {
-	background-color: #000;
 	min-height: 450px;
 	margin-top: inherit;
 	margin-bottom: inherit;
@@ -616,6 +615,7 @@ a:hover {
 	max-width: inherit;
 	text-align: inherit;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-cover h2 {
@@ -631,6 +631,7 @@ a:hover {
 	max-width: inherit;
 	text-align: inherit;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-cover-image h2 {
@@ -661,6 +662,15 @@ a:hover {
 .wp-block-cover[class*=-background-color][class] .wp-block-cover__inner-container,
 .wp-block-cover-image[class*=-background-color][class] .wp-block-cover__inner-container {
 	background-color: unset;
+}
+
+.wp-block-cover.is-style-default {
+	margin-top: 90px;
+	padding-top: 0;
+}
+
+.has-offwhite-background-color {
+	background: #f6f9ff;
 }
 
 .wp-block-columns:not(.alignwide):not(.alignfull) {
@@ -806,8 +816,8 @@ a:hover {
 	border-radius: 0;
 	cursor: pointer;
 	font-weight: 500;
-	font-family: "Roboto", sans-serif;
-	font-size: 1.25rem;
+	font-family: roboto, sans-serif;
+	font-size: 1rem;
 	line-height: 1.5;
 	padding: 15px 30px;
 	text-decoration: none;
@@ -849,7 +859,7 @@ a:hover {
 .wp-block-file .wp-block-file__button:disabled {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-color: rgba(255, 255, 255, 0.5);
-	color: #39414d;
+	color: #999;
 }
 
 .wp-block-file .wp-block-file__button:focus {
@@ -935,7 +945,7 @@ h5,
 h6,
 .h6 {
 	clear: both;
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-weight: normal;
 }
 
@@ -1248,12 +1258,13 @@ h6,
 
 .wp-block-latest-posts > li > a {
 	display: inline-block;
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 2rem;
 	font-weight: normal;
 	line-height: 1.3;
 	margin-bottom: 10px;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-latest-posts > li > a {
@@ -1280,7 +1291,7 @@ h6,
 
 .wp-block-latest-posts .wp-block-latest-posts__post-excerpt,
 .wp-block-latest-posts .wp-block-latest-posts__post-full-content {
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.125rem;
 	line-height: 1.7;
 	margin-top: 20px;
@@ -1408,7 +1419,7 @@ h6,
 
 ul,
 ol {
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	margin: 30px 0;
 	padding-left: 50px;
 }
@@ -1433,7 +1444,7 @@ li > ol {
 }
 
 dt {
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-weight: bold;
 }
 
@@ -1473,7 +1484,7 @@ dt {
 }
 
 .wp-block-navigation .wp-block-navigation-link .wp-block-navigation-link__label {
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.25rem;
 	font-weight: normal;
 }
@@ -1531,7 +1542,7 @@ pre.wp-block-preformatted {
 }
 
 .wp-block-pullquote p {
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 2rem;
 	font-style: normal;
 	font-weight: 700;
@@ -1539,6 +1550,7 @@ pre.wp-block-preformatted {
 	line-height: 1.3;
 	margin: 0;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-pullquote p {
@@ -1596,6 +1608,7 @@ pre.wp-block-preformatted {
 .wp-block-pullquote.is-style-solid-color blockquote p {
 	font-size: 2rem;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-pullquote.is-style-solid-color blockquote p {
@@ -1638,7 +1651,7 @@ pre.wp-block-preformatted {
 }
 
 .wp-block-quote p {
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.25rem;
 	font-style: normal;
 	font-weight: 700;
@@ -1709,6 +1722,7 @@ pre.wp-block-preformatted {
 	font-style: normal;
 	line-height: 1.35;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-quote.is-large p {
@@ -1721,6 +1735,7 @@ pre.wp-block-preformatted {
 	font-style: normal;
 	line-height: 1.35;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-quote.is-style-large p {
@@ -1733,6 +1748,7 @@ pre.wp-block-preformatted {
 	line-height: 1.35;
 	left: -25px;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-quote.is-large:before {
@@ -1745,6 +1761,7 @@ pre.wp-block-preformatted {
 	line-height: 1.35;
 	left: -25px;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-quote.is-style-large:before {
@@ -1764,6 +1781,7 @@ pre.wp-block-preformatted {
 	line-height: 1.35;
 	margin-right: 10px;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-quote.is-large.has-text-align-right p:before {
@@ -1778,6 +1796,7 @@ pre.wp-block-preformatted {
 	line-height: 1.35;
 	margin-right: 10px;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-quote.is-style-large.has-text-align-right p:before {
@@ -1899,12 +1918,13 @@ pre.wp-block-preformatted {
 
 .wp-block-rss .wp-block-rss__item-title > a {
 	display: inline-block;
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 2rem;
 	font-weight: normal;
 	line-height: 1.3;
 	margin-bottom: 10px;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-rss .wp-block-rss__item-title > a {
@@ -1931,7 +1951,7 @@ pre.wp-block-preformatted {
 
 .wp-block-rss .wp-block-rss__item-excerpt,
 .wp-block-rss .wp-block-rss__item-full-content {
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.125rem;
 	line-height: 1.7;
 	margin-top: 20px;
@@ -1974,9 +1994,9 @@ pre.wp-block-preformatted {
 
 .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper,
 .wp-block-search .wp-block-search__input {
-	border: 3px solid #39414d;
+	border: 3px solid #999;
 	border-radius: 0;
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.125rem;
 	line-height: 1.7;
 	max-width: inherit;
@@ -1999,8 +2019,8 @@ pre.wp-block-preformatted {
 	border-radius: 0;
 	cursor: pointer;
 	font-weight: 500;
-	font-family: "Roboto", sans-serif;
-	font-size: 1.25rem;
+	font-family: roboto, sans-serif;
+	font-size: 1rem;
 	line-height: 1.5;
 	padding: 15px 30px;
 	text-decoration: none;
@@ -2043,7 +2063,7 @@ pre.wp-block-preformatted {
 .wp-block-search .wp-block-search__button.wp-block-search__button:disabled {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-color: rgba(255, 255, 255, 0.5);
-	color: #39414d;
+	color: #999;
 }
 
 .wp-block-search .wp-block-search__button.wp-block-search__button.has-icon {
@@ -2148,12 +2168,14 @@ hr[style*="text-align: right"] {
 .wp-block-separator:not(.is-style-dots) {
 	max-width: calc(100vw - 30px);
 }
+
 @media only screen and (min-width: 482px) {
 
 	.wp-block-separator:not(.is-style-dots) {
 		max-width: min(calc(100vw - 100px), 610px);
 	}
 }
+
 @media only screen and (min-width: 822px) {
 
 	.wp-block-separator:not(.is-style-dots) {
@@ -2164,12 +2186,14 @@ hr[style*="text-align: right"] {
 hr:not(.is-style-dots) {
 	max-width: calc(100vw - 30px);
 }
+
 @media only screen and (min-width: 482px) {
 
 	hr:not(.is-style-dots) {
 		max-width: min(calc(100vw - 100px), 610px);
 	}
 }
+
 @media only screen and (min-width: 822px) {
 
 	hr:not(.is-style-dots) {
@@ -2249,7 +2273,7 @@ table tfoot,
 
 table th,
 .wp-block-table th {
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 }
 
 table td,
@@ -2370,23 +2394,23 @@ pre.wp-block-verse {
 }
 
 :root .is-regular-text {
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 :root .has-regular-font-size {
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 :root .is-normal-font-size {
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 :root .has-normal-font-size {
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 :root .has-medium-font-size {
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 :root .is-large-text {
@@ -2403,6 +2427,7 @@ pre.wp-block-verse {
 	font-size: 2.5rem;
 	line-height: 1.3;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .is-larger-text {
@@ -2414,6 +2439,7 @@ pre.wp-block-verse {
 	font-size: 2.5rem;
 	line-height: 1.3;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .has-larger-font-size {
@@ -2425,6 +2451,7 @@ pre.wp-block-verse {
 	font-size: 2.5rem;
 	line-height: 1.3;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .is-extra-large-text {
@@ -2436,6 +2463,7 @@ pre.wp-block-verse {
 	font-size: 2.5rem;
 	line-height: 1.3;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .has-extra-large-font-size {
@@ -2448,6 +2476,7 @@ pre.wp-block-verse {
 	line-height: 1.3;
 	font-weight: 300;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .is-huge-text {
@@ -2460,6 +2489,7 @@ pre.wp-block-verse {
 	line-height: 1.3;
 	font-weight: 300;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .has-huge-font-size {
@@ -2472,6 +2502,7 @@ pre.wp-block-verse {
 	line-height: 1.3;
 	font-weight: 300;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .is-gigantic-text {
@@ -2484,6 +2515,7 @@ pre.wp-block-verse {
 	line-height: 1.3;
 	font-weight: 300;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .has-gigantic-font-size {
@@ -2515,12 +2547,13 @@ pre.wp-block-verse {
 }
 
 .wp-block.editor-post-title__block .editor-post-title__input {
-	color: #39414d;
-	font-family: "Roboto", sans-serif;
+	color: #999;
+	font-family: roboto, sans-serif;
 	font-size: 4rem;
 	font-weight: 300;
 	line-height: 1.1;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block.editor-post-title__block .editor-post-title__input {
@@ -2529,7 +2562,7 @@ pre.wp-block-verse {
 }
 
 .wp-block.block-editor-default-block-appender > textarea {
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.25rem;
 }
 
@@ -2538,7 +2571,7 @@ pre.wp-block-verse {
 }
 
 .has-secondary-color[class] {
-	color: #39414d;
+	color: #999;
 }
 
 .has-primary-background-color[class] {
@@ -2547,12 +2580,12 @@ pre.wp-block-verse {
 }
 
 .has-secondary-background-color[class] {
-	background-color: #39414d;
+	background-color: #999;
 	color: #d1e4dd;
 }
 
 .has-white-background-color[class] {
-	color: #39414d;
+	color: #999;
 }
 
 .has-black-background-color[class] {
@@ -2585,12 +2618,14 @@ pre.wp-block-verse {
 .wp-block[data-align=wide] {
 	max-width: calc(100vw - 30px);
 }
+
 @media only screen and (min-width: 482px) {
 
 	.wp-block[data-align=wide] {
 		max-width: calc(100vw - 100px);
 	}
 }
+
 @media only screen and (min-width: 822px) {
 
 	.wp-block[data-align=wide] {
@@ -2601,12 +2636,14 @@ pre.wp-block-verse {
 .wp-block.alignwide {
 	max-width: calc(100vw - 30px);
 }
+
 @media only screen and (min-width: 482px) {
 
 	.wp-block.alignwide {
 		max-width: calc(100vw - 100px);
 	}
 }
+
 @media only screen and (min-width: 822px) {
 
 	.wp-block.alignwide {
@@ -2630,7 +2667,7 @@ pre.wp-block-verse {
 }
 
 .has-drop-cap:not(:focus)::first-letter {
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 	font-weight: normal;
 	line-height: 0.66;
 	text-transform: uppercase;
@@ -2674,12 +2711,12 @@ html {
 
 html,
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: roboto, sans-serif;
 }
 
 body {
 	background-color: #d1e4dd;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	font-weight: normal;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
@@ -2718,11 +2755,11 @@ a {
 }
 
 .has-gray-color[class] {
-	color: #39414d;
+	color: #999;
 }
 
 .has-gray-color[class] > [class*=__inner-container] {
-	color: #39414d;
+	color: #999;
 }
 
 .has-dark-gray-color[class] {
@@ -2817,11 +2854,11 @@ a {
 }
 
 .has-gray-background-color[class] {
-	background-color: #39414d;
+	background-color: #999;
 }
 
 .has-gray-background-color[class] > [class*=__inner-container] {
-	background-color: #39414d;
+	background-color: #999;
 }
 
 .has-light-gray-background-color[class] {
