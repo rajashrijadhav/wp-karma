@@ -158,7 +158,7 @@
 
 	@include media(mobile) {
 		position: relative;
-		margin-left: auto;
+		//margin-left: auto;
 
 		// Hide Mobile menu on desktop
 		> .primary-menu-container {
@@ -382,16 +382,20 @@
 	a {
 		display: block;
 		font-family: var(--primary-nav--font-family-mobile);
-		font-size: var(--primary-nav--font-size-mobile);
-		font-weight: var(--primary-nav--font-weight);
+		//font-size: var(--primary-nav--font-size-mobile);
+		//font-weight: var(--primary-nav--font-weight);
 		padding: var(--primary-nav--padding) 0;
 		text-decoration: none;
+		font-size: 15px;
+		font-weight: 500;
 
 		@include media(mobile) {
 			display: block;
 			font-family: var(--primary-nav--font-family);
-			font-size: var(--primary-nav--font-size);
-			font-weight: var(--primary-nav--font-weight);
+			//font-size: var(--primary-nav--font-size);
+			//font-weight: var(--primary-nav--font-weight);
+			font-size: 15px;
+			font-weight: 500;
 		}
 
 		+ svg {
@@ -405,8 +409,9 @@
 		}
 
 		&:hover {
-			text-decoration: underline;
-			text-decoration-style: dotted;
+			text-decoration: none;
+			color: #2a74ed;
+			//text-decoration-style: dotted;
 		}
 
 		&:focus {
@@ -415,16 +420,20 @@
 			outline-offset: 0;
 			text-decoration-thickness: 2px;
 		}
+		&:active {
+			text-decoration: none;
+			color: #2a74ed;
+		}
 	}
 
 	.current-menu-item > a:first-child,
 	.current_page_item > a:first-child {
-		text-decoration: underline;
-		text-decoration-style: solid;
+		text-decoration: none;
+		
 
 		&:hover {
-			text-decoration: underline;
-			text-decoration-style: dotted;
+			text-decoration: none;
+			
 		}
 	}
 

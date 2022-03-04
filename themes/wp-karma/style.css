@@ -101,8 +101,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 :root {
 
 	/* Font Family */
-	--global--font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
-	--global--font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+	--global--font-primary: "Roboto", sans-serif;
+	--global--font-secondary: "Roboto", sans-serif;
 
 	/* Font Size */
 	--global--font-size-base: 1.25rem;
@@ -159,7 +159,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 	--global--color-gray: #39414d;
 	--global--color-light-gray: #f0f0f0;
 	--global--color-green: #d1e4dd;
-	--global--color-blue: #d1dfe4;
+	--global--color-blue: #2a74de;
 	--global--color-purple: #d1d1e4;
 	--global--color-red: #e4d1d1;
 	--global--color-orange: #e4dad1;
@@ -849,7 +849,6 @@ template {
  * Top Level Wrappers (header, main, footer)
  * - Set vertical padding and horizontal margins
  */
-.site-header,
 .site-main,
 .widget-area,
 .site-footer {
@@ -860,14 +859,8 @@ template {
 }
 
 .site-header {
-	padding-top: calc(0.75 * var(--global--spacing-vertical));
-	padding-bottom: calc(2 * var(--global--spacing-vertical));
-}
-@media only screen and (min-width: 482px) {
-
-	.site-header {
-		padding-bottom: calc(3 * var(--global--spacing-vertical));
-	}
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 /**
@@ -3798,35 +3791,16 @@ table.wp-calendar-table caption {
 .wp-custom-logo .site-header {
 	align-items: center;
 }
-@media only screen and (min-width: 482px) {
-
-	.site-header {
-		padding-top: calc(var(--global--spacing-vertical) / 0.75);
-	}
-}
-@media only screen and (min-width: 822px) {
-
-	.site-header {
-		padding-top: calc(2.4 * var(--global--spacing-vertical));
-	}
-}
 
 .site-branding {
 	color: var(--branding--color-text);
-	margin-right: 140px;
+	margin-right: 180px;
 }
 
 .site-branding:last-child {
 	margin-right: 0;
 	width: 100%;
 	text-align: center;
-}
-@media only screen and (min-width: 482px) {
-
-	.site-branding {
-		margin-right: initial;
-		margin-top: 4px;
-	}
 }
 
 .site-title {
@@ -3964,6 +3938,10 @@ table.wp-calendar-table caption {
 	.site-header:not(.has-menu) {
 		justify-content: center;
 	}
+}
+
+.site a {
+	text-decoration: none;
 }
 
 .site-footer {
@@ -4767,7 +4745,6 @@ h1.page-title {
 
 	.primary-navigation {
 		position: relative;
-		margin-left: auto;
 	}
 
 	.primary-navigation > .primary-menu-container {
@@ -4985,18 +4962,18 @@ h1.page-title {
 .primary-navigation a {
 	display: block;
 	font-family: var(--primary-nav--font-family-mobile);
-	font-size: var(--primary-nav--font-size-mobile);
-	font-weight: var(--primary-nav--font-weight);
 	padding: var(--primary-nav--padding) 0;
 	text-decoration: none;
+	font-size: 15px;
+	font-weight: 500;
 }
 @media only screen and (min-width: 482px) {
 
 	.primary-navigation a {
 		display: block;
 		font-family: var(--primary-nav--font-family);
-		font-size: var(--primary-nav--font-size);
-		font-weight: var(--primary-nav--font-weight);
+		font-size: 15px;
+		font-weight: 500;
 	}
 }
 
@@ -5011,8 +4988,8 @@ h1.page-title {
 }
 
 .primary-navigation a:hover {
-	text-decoration: underline;
-	text-decoration-style: dotted;
+	text-decoration: none;
+	color: #2a74ed;
 }
 
 .primary-navigation a:focus {
@@ -5022,16 +4999,19 @@ h1.page-title {
 	text-decoration-thickness: 2px;
 }
 
+.primary-navigation a:active {
+	text-decoration: none;
+	color: #2a74ed;
+}
+
 .primary-navigation .current-menu-item > a:first-child,
 .primary-navigation .current_page_item > a:first-child {
-	text-decoration: underline;
-	text-decoration-style: solid;
+	text-decoration: none;
 }
 
 .primary-navigation .current-menu-item > a:first-child:hover,
 .primary-navigation .current_page_item > a:first-child:hover {
-	text-decoration: underline;
-	text-decoration-style: dotted;
+	text-decoration: none;
 }
 
 .primary-navigation .sub-menu {
