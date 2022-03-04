@@ -202,7 +202,7 @@ if ( ! function_exists( 'twenty_twenty_one_setup' ) ) {
 		// Editor color palette.
 		$black     = '#000000';
 		$dark_gray = '#28303D';
-		$gray      = '#39414D';
+		$gray      = '#999999';
 		$green     = '#D1E4DD';
 		$blue      = '#2a74ed';
 		$purple    = '#D1D1E4';
@@ -210,6 +210,7 @@ if ( ! function_exists( 'twenty_twenty_one_setup' ) ) {
 		$orange    = '#E4DAD1';
 		$yellow    = '#EEEADD';
 		$white     = '#FFFFFF';
+		
 
 		add_theme_support(
 			'editor-color-palette',
@@ -264,6 +265,8 @@ if ( ! function_exists( 'twenty_twenty_one_setup' ) ) {
 					'slug'  => 'white',
 					'color' => $white,
 				),
+				
+				
 			)
 		);
 

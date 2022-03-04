@@ -61,3 +61,16 @@
 		}
 	}
 }
+.img-trans { 
+		//max-width: 400px;
+		//margin: auto;
+		//text-align: center;
+		transition: 0.3s;
+	:hover{
+		cursor: pointer;
+		opacity: 0.5;
+		transform: rotate(-15deg);
+}
+}
+
+

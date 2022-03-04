@@ -6,11 +6,11 @@ $baseline-unit: 10px;
 :root {
 
 	/* Font Family */
-	--global--font-primary: 'Roboto', sans-serif;
-	--global--font-secondary: 'Roboto', sans-serif;
+	--global--font-primary: Roboto, sans-serif;
+	--global--font-secondary: Roboto, sans-serif;
 
 	/* Font Size */
-	--global--font-size-base: 1.25rem; // 20px / 16px
+	--global--font-size-base: 1rem; // 20px / 16px
 	--global--font-size-xs: 1rem; // 16px / 16px
 	--global--font-size-sm: 1.125rem; // 18px / 16px
 	--global--font-size-md: 1.25rem; // 20px / 16px
@@ -66,7 +66,7 @@ $baseline-unit: 10px;
 	/* Colors */
 	--global--color-black: #000;
 	--global--color-dark-gray: #28303d;
-	--global--color-gray: #39414d;
+	--global--color-gray: #999999;
 	--global--color-light-gray: #f0f0f0;
 	--global--color-green: #d1e4dd;
 	--global--color-blue: #2a74de;
