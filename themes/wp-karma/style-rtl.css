@@ -2411,10 +2411,11 @@ h6,
 }
 
 .img-trans {
-	transition: 0.8s;
+	transition: all 0.3s;
+	transform: rotate(0);
 }
 
-.img-trans :hover {
+.img-trans:hover {
 	cursor: pointer;
 	opacity: 0.5;
 	transform: rotate(15deg);
