@@ -1,0 +1,174 @@
+{
+    "translation-revision-date": "2021-09-01 14:21+0200",
+    "generator": "WP-CLI\/2.5.0",
+    "source": "build\/gutenslider-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "de_DE",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "\u2193 top to bottom": [
+                "\u2193 von oben nach unten"
+            ],
+            "\u2191 bottom to top": [
+                "\u2191 von unten nach oben"
+            ],
+            "\u2192 left to right": [
+                "\u2192 von links nach rechts"
+            ],
+            "\u2190 right to left": [
+                "\u2190 von rechts nach links"
+            ],
+            "\u2199 top right to bottom left": [
+                "\u2199 oben rechts nach unten links"
+            ],
+            "\u2198 top left to bottom right": [
+                "\u2198 oben links nach unten rechts"
+            ],
+            "\u2196 bottom right to top left": [
+                "\u2196 unten rechts nach links oben"
+            ],
+            "\u2197 bottom left to top right": [
+                "\u2197 unten links nach rechts oben"
+            ],
+            "Style 1": [
+                "Stil 1"
+            ],
+            "Style 2": [
+                "Stil 2"
+            ],
+            "Style 3": [
+                "Stil 3"
+            ],
+            "Style 4": [
+                "Stil 4"
+            ],
+            "Style 5": [
+                "Stil 5"
+            ],
+            "Style 6": [
+                "Stil 6"
+            ],
+            "Style 7": [
+                "Stil 7"
+            ],
+            "Style 8": [
+                "Stil 8"
+            ],
+            "Style 9": [
+                "Stil 9"
+            ],
+            "Style 10": [
+                "Stil 10"
+            ],
+            "Left + Right": [
+                "Links + Rechts"
+            ],
+            "Top Left": [
+                "Oben Links"
+            ],
+            "Top Right": [
+                "Oben Rechts"
+            ],
+            "Bottom Left": [
+                "Unten Links"
+            ],
+            "Bottom Right": [
+                "Unten Rechts"
+            ],
+            "Top + Bottom": [
+                "Oben + unten"
+            ],
+            "Top": [
+                "Oben"
+            ],
+            "Bottom": [
+                "Unten"
+            ],
+            "Left": [
+                "Links"
+            ],
+            "Right": [
+                "Rechts"
+            ],
+            "Edit Slides": [
+                "Slides bearbeiten"
+            ],
+            "Select background media from your library or add an empty slide.": [
+                "W\u00e4hlen Sie Hintergrundmedien aus Ihrer Bibliothek aus oder f\u00fcgen Sie eine leere Slide hinzu."
+            ],
+            "No Automatic Captions": [
+                "Keine automatischen Untertitel"
+            ],
+            "Caption Only": [
+                "Nur Bildunterschrift"
+            ],
+            "Title - Caption": [
+                "Titel - Bildunterschrift"
+            ],
+            "Title - Caption - Description": [
+                "Titel - Bildunterschrift - Beschreibung"
+            ],
+            "Background Settings": [
+                "Hintergrund"
+            ],
+            "Background Type": [
+                "Art des Hintergrunds"
+            ],
+            "Background Options": [
+                "Hintergrund Optionen"
+            ],
+            "Overlay Opacity": [
+                "Overlay-Transparenz"
+            ],
+            "Minimum Slide Width": [
+                "Minimale Slide Breite"
+            ],
+            "Slide Settings": [
+                "Slide Einstellungen"
+            ],
+            "Slide Link": [
+                "Slide Link"
+            ],
+            "Set an url that opens, when the user clicks the slide": [
+                "Legen Sie eine URL fest, die ge\u00f6ffnet wird, wenn der Benutzer auf die Slide klickt"
+            ],
+            "Automatic Captions": [
+                "Automatische Untertitel"
+            ],
+            "Add slide content here\u2026": [
+                "F\u00fcgen Sie hier Slideinhalte hinzu..."
+            ],
+            "Change content position": [
+                "Inhaltsposition \u00e4ndern"
+            ],
+            "Gutenslider Pro": [
+                "Gutenslider Pro"
+            ],
+            "Slider Block for Gutenberg that slides images and videos with arbitrary blocks on top.": [
+                "Slider Block f\u00fcr Gutenberg, der Bilder und Videos mit beliebigen Bl\u00f6cken dar\u00fcber slicet."
+            ],
+            "Slider": [
+                "Slider"
+            ],
+            "Image": [
+                "Bild"
+            ],
+            "Carousel": [
+                "Carousel"
+            ],
+            "Gutenslide": [
+                "Gutenslide"
+            ],
+            "Single Slide for Gutenslider.": [
+                "Slide f\u00fcr Gutenslider."
+            ],
+            "Slide": [
+                "Slide"
+            ]
+        }
+    }
+}
