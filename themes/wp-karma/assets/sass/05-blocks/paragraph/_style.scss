@@ -9,6 +9,12 @@ p {
 
 	// Override `color: inherit` from Core styles.
 	&.has-text-color a {
-		color: var(--wp--style--color--link, var(--global--color-primary));
+		//color: var(--wp--style--color--link, var(--global--color-primary));
+		color: #2a74ed;
+		text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+		}
 	}
+	
 }

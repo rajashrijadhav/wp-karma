@@ -470,13 +470,12 @@ select:focus {
  */
 a {
 	cursor: pointer;
-	color: var(--wp--style--color--link, var(--global--color-primary));
+	color: #2a74ed;
 	text-underline-offset: 3px;
 	text-decoration-skip-ink: all;
 }
 
 a:hover {
-	text-decoration-style: dotted;
 	text-decoration-skip-ink: none;
 }
 
@@ -568,7 +567,6 @@ a:hover {
 .wp-block-button__link:hover,
 .wp-block-button__link:active {
 	background-color: transparent;
-	border-color: currentColor;
 	color: inherit;
 }
 
@@ -642,8 +640,8 @@ a:hover {
 
 .wp-block-button.is-style-outline .wp-block-button__link:hover,
 .wp-block-button.is-style-outline .wp-block-button__link:active {
-	background-color: var(--global--color-primary) !important;
-	border-color: transparent !important;
+	border-color: #fff !important;
+	background-color: transparent !important;
 	color: var(--global--color-background) !important;
 }
 
@@ -670,6 +668,10 @@ a:hover {
 .is-style-outline .wp-block-button__link[style*=radius],
 .wp-block-button__link[style*=radius] {
 	outline-offset: 2px;
+}
+
+.wp-block-button .wp-block-button__link {
+	text-transform: uppercase;
 }
 
 .wp-block-code code {
@@ -920,7 +922,6 @@ a:hover {
 .wp-block-file .wp-block-file__button:hover,
 .wp-block-file .wp-block-file__button:active {
 	background-color: transparent;
-	border-color: currentColor;
 	color: inherit;
 }
 
@@ -1870,7 +1871,6 @@ pre.wp-block-preformatted {
 .wp-block-search .wp-block-search__button.wp-block-search__button:hover,
 .wp-block-search .wp-block-search__button.wp-block-search__button:active {
 	background-color: transparent;
-	border-color: currentColor;
 	color: inherit;
 }
 

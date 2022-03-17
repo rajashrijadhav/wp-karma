@@ -852,7 +852,6 @@ template {
 .site-main,
 .widget-area,
 .site-footer {
-	padding-top: var(--global--spacing-vertical);
 	padding-bottom: var(--global--spacing-vertical);
 	margin-left: auto;
 	margin-right: auto;
@@ -917,8 +916,8 @@ template {
 [class*=inner-container] > *,
 .wp-block-template-part > *,
 .wp-block-post-template :where(li > *) {
-	margin-top: calc(0.666 * var(--global--spacing-vertical));
-	margin-bottom: calc(0.666 * var(--global--spacing-vertical));
+	margin-top: 90px;
+	margin-bottom: 90px;
 }
 @media only screen and (min-width: 482px) {
 
@@ -928,8 +927,8 @@ template {
 	[class*=inner-container] > *,
 	.wp-block-template-part > *,
 	.wp-block-post-template :where(li > *) {
-		margin-top: var(--global--spacing-vertical);
-		margin-bottom: var(--global--spacing-vertical);
+		margin-top: 90px;
+		margin-bottom: 90px;
 	}
 }
 
@@ -1648,13 +1647,12 @@ pre {
  */
 a {
 	cursor: pointer;
-	color: var(--wp--style--color--link, var(--global--color-primary));
+	color: #2a74ed;
 	text-underline-offset: 3px;
 	text-decoration-skip-ink: all;
 }
 
 a:hover {
-	text-decoration-style: dotted;
 	text-decoration-skip-ink: none;
 }
 
@@ -1803,7 +1801,6 @@ input[type=reset]:active,
 .wp-block-file a.wp-block-file__button:hover,
 .wp-block-file a.wp-block-file__button:active {
 	background-color: transparent;
-	border-color: currentColor;
 	color: inherit;
 }
 
@@ -1855,9 +1852,8 @@ input[type=reset]:disabled,
 
 .wp-block-button:not(.is-style-outline) .wp-block-button__link:hover,
 .wp-block-button:not(.is-style-outline) .wp-block-button__link:active {
-	border-color: currentColor !important;
-	background-color: transparent !important;
-	color: inherit !important;
+	background-color: #fff !important;
+	color: #2a74ed !important;
 }
 
 .wp-block-button.is-style-outline .wp-block-button__link:not(:hover):not(:active):not(.has-text-color),
@@ -1884,8 +1880,8 @@ input[type=reset]:disabled,
 
 .wp-block-button.is-style-outline .wp-block-button__link:hover,
 .wp-block-button.is-style-outline .wp-block-button__link:active {
-	border-color: transparent !important;
-	background-color: var(--global--color-primary) !important;
+	border-color: #fff !important;
+	background-color: transparent !important;
 	color: var(--global--color-background) !important;
 }
 
@@ -1908,6 +1904,24 @@ input[type=reset]:disabled,
 .wp-block-button a.wp-block-button__link[style*=radius]:focus {
 	outline-offset: 2px;
 	outline: 2px dotted var(--button--color-background);
+}
+
+.wp-block-button .wp-block-button__link {
+	text-transform: uppercase;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 21px 37px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(42, 116, 237, 0.5);
+	outline: none;
+	background-color: #2a74ed;
+	color: #fff;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 1.4px;
+	line-height: normal;
 }
 
 .wp-block-code {
@@ -2913,7 +2927,12 @@ p.has-background {
 }
 
 p.has-text-color a {
-	color: var(--wp--style--color--link, var(--global--color-primary));
+	color: #2a74ed;
+	text-decoration: underline;
+}
+
+p.has-text-color a:hover {
+	text-decoration: none;
 }
 
 pre.wp-block-preformatted {
@@ -3426,6 +3445,7 @@ hr.wp-block-separator:not(.is-style-dots).alignwide {
 
 hr.wp-block-separator:not(.is-style-dots).alignfull {
 	max-width: var(--responsive--alignfull-width);
+	width: 100%;
 }
 
 hr.wp-block-separator.is-style-twentytwentyone-separator-thick {
@@ -5585,6 +5605,30 @@ h1.page-title {
 
 .widget_rss a.rsswidget .rss-widget-icon {
 	display: none;
+}
+
+.is-position-center-left .wp-block-group {
+	margin-left: 50px;
+}
+
+.wp-block-eedee-block-gutenslider.arrow-position-sides .eedee-gutenslider-prev,
+.wp-block-eedee-block-gutenslider.arrow-position-sides .eedee-gutenslider-next {
+	width: 56px;
+	height: 56px;
+	border: 1px solid rgba(238, 238, 238, 0.2);
+	border-radius: 50%;
+	line-height: 0;
+	text-align: center;
+	opacity: 1;
+	background-color: #fff;
+}
+
+.wp-block-eedee-block-gutenslider.arrow-position-sides .eedee-gutenslider-prev:hover,
+.wp-block-eedee-block-gutenslider.arrow-position-sides .eedee-gutenslider-prev:hover,
+.wp-block-eedee-block-gutenslider.arrow-position-sides .eedee-gutenslider-next:hover,
+.wp-block-eedee-block-gutenslider.arrow-position-sides .eedee-gutenslider-next:hover {
+	background-color: #fff !important;
+	fill: #000 !important;
 }
 
 /* Category 07 is for any utility classes that are not assigned to a specific component. */

@@ -50,9 +50,9 @@ input[type="reset"],
 		// Hover Button color should match parent element foreground color
 		.wp-block-button__link:hover,
 		.wp-block-button__link:active {
-			border-color: currentColor !important;
-			background-color: transparent !important;
-			color: inherit !important;
+			//border-color: currentColor !important;
+			background-color: #fff!important;
+			color: #2a74ed !important;
 		}
 	}
 
@@ -94,8 +94,8 @@ input[type="reset"],
 		.wp-block-button__link:hover,
 		.wp-block-button__link:active {
 
-			border-color: transparent !important;
-			background-color: var(--global--color-primary) !important;
+			border-color: #fff !important;
+			background-color: transparent !important;
 			color: var(--global--color-background) !important;
 
 			.has-background & {
@@ -119,4 +119,24 @@ input[type="reset"],
 .wp-block-button a.wp-block-button__link[style*="radius"]:focus {
 	outline-offset: 2px;
 	outline: 2px dotted var(--button--color-background);
+}
+
+.wp-block-button .wp-block-button__link {
+	text-transform: uppercase;
+	border-radius: 5px;
+    display: inline-block;
+    //position: relative;
+    padding: 21px 37px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(42,116,237,.5);
+    outline: none;
+    background-color: #2a74ed;
+    color: #fff;
+   // font-family: roboto,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    line-height: normal;
 }

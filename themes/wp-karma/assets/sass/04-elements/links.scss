@@ -5,13 +5,13 @@
  */
 a {
 	cursor: pointer;
-	color: var(--wp--style--color--link, var(--global--color-primary));
+	color: #2a74ed;;
 	text-underline-offset: 3px;
 	text-decoration-skip-ink: all;
 }
 
 a:hover {
-	text-decoration-style: dotted;
+	//text-decoration-style: dotted;
 	text-decoration-skip-ink: none;
 }
 
