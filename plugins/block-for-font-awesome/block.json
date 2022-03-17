@@ -1,0 +1,21 @@
+{
+	"name": "getbutterfly/font-awesome",
+	"title": "Block for Font Awesome",
+	"category": "getbutterfly",
+	"parent": [
+        "getbutterfly"
+    ],
+	"icon": "star-filled",
+	"description": "Display a Font Awesome 5 icon in a block.",
+	"keywords": [
+        "block",
+        "font",
+        "icon",
+        "pictogram",
+        "fontawesome",
+        "awesome",
+        "fa",
+        "gutenberg"
+    ],
+	"textDomain": "block-for-font-awesome"
+}
