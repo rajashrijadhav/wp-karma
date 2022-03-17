@@ -1,0 +1,31 @@
+.is-position-center-left{
+    .wp-block-group {
+        margin-left: 50px;
+    }
+}
+
+.wp-block-eedee-block-gutenslider.arrow-position-sides{
+    .eedee-gutenslider-prev,
+    .eedee-gutenslider-next  {
+        width: 56px;
+        height: 56px;
+        border: 1px solid rgba(238,238,238,.2);
+        border-radius: 50%;
+        line-height: 0;
+        text-align: center;
+        opacity: 1;
+        background-color: #fff;
+
+        &:hover,
+        &:hover {
+            background-color: #fff !important;
+            fill: #000 !important; 
+            
+        }
+
+       
+    } 
+    
+    
+} 
+

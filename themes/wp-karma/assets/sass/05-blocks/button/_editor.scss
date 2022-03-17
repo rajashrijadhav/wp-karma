@@ -93,8 +93,8 @@
 		.wp-block-button__link:hover,
 		.wp-block-button__link:active {
 
-			background-color: var(--global--color-primary) !important;
-			border-color: transparent !important;
+			border-color: #fff !important;
+			background-color: transparent !important;
 			color: var(--global--color-background) !important;
 
 			.has-background & {
@@ -123,4 +123,8 @@
 .is-style-outline .wp-block-button__link[style*="radius"],
 .wp-block-button__link[style*="radius"] {
 	outline-offset: 2px;
+}
+
+.wp-block-button .wp-block-button__link {
+	text-transform: uppercase;
 }
