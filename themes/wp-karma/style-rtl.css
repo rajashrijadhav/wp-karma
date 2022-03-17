@@ -908,8 +908,8 @@ template {
 [class*=inner-container] > *,
 .wp-block-template-part > *,
 .wp-block-post-template :where(li > *) {
-	margin-top: 90px;
-	margin-bottom: 90px;
+	margin-top: calc(0.666 * var(--global--spacing-vertical));
+	margin-bottom: calc(0.666 * var(--global--spacing-vertical));
 }
 @media only screen and (min-width: 482px) {
 
@@ -919,8 +919,8 @@ template {
 	[class*=inner-container] > *,
 	.wp-block-template-part > *,
 	.wp-block-post-template :where(li > *) {
-		margin-top: 90px;
-		margin-bottom: 90px;
+		margin-top: var(--global--spacing-vertical);
+		margin-bottom: var(--global--spacing-vertical);
 	}
 }
 
@@ -1010,6 +1010,11 @@ template {
 .entry-content > *.alignfull + .alignleft,
 .entry-content > *.alignfull + .alignright {
 	margin-top: var(--global--spacing-vertical);
+}
+
+.wp-block-group__inner-container {
+	margin-top: 90px;
+	margin-bottom: 90px;
 }
 
 /**
@@ -1933,6 +1938,11 @@ input[type=reset]:disabled,
 	clear: both;
 }
 
+.wp-block-columns .feature {
+	box-shadow: 0 10px 30px 0 rgba(42, 116, 237, 0.1);
+	border: 1px solid red;
+}
+
 .wp-block-columns .wp-block-column > * {
 	margin-top: calc(0.66 * var(--global--spacing-vertical));
 	margin-bottom: calc(0.66 * var(--global--spacing-vertical));
@@ -2017,6 +2027,12 @@ input[type=reset]:disabled,
 .wp-block-columns.alignfull .wp-block-column h6:not(.has-background) {
 	padding-right: var(--global--spacing-unit);
 	padding-left: var(--global--spacing-unit);
+}
+
+.wp-block-columns .feature-tab:hover {
+	border-color: rgba(42, 116, 237, 0.33);
+	background: #2a74ed;
+	box-shadow: -1.169px 3.825px 15.66px 2.34px rgb;
 }
 
 .wp-block-cover,
@@ -5593,6 +5609,36 @@ h1.page-title {
 .wp-block-eedee-block-gutenslider.arrow-position-sides .eedee-gutenslider-next:hover {
 	background-color: #fff !important;
 	fill: #000 !important;
+}
+
+.feature-tabs {
+	max-width: 100% !important;
+	width: 100% !important;
+}
+
+.feature-tabs-container .wp-block-columns {
+	padding: 70px 0;
+}
+
+.feature-tabs-container .wp-block-ub-tabbed-content-tab-holder {
+	text-align: center;
+}
+
+.feature-tabs-container .wp-block-ub-tabbed-content-tabs-title {
+	border-left: 1px solid rgba(34, 34, 34, 0.1);
+	border-bottom: 1px solid rgba(34, 34, 34, 0.1);
+	box-shadow: 0 10px 30px 0 rgba(42, 116, 237, 0.1);
+	border-radius: 5px;
+	display: inline-flex;
+}
+
+.feature-tabs-container .wp-block-ub-tabbed-content-tab-title-wrap {
+	padding: 15px 30px;
+	margin-left: 0;
+}
+
+.feature-tabs-container .wp-block-ub-tabbed-content-tabs-content {
+	background-image: linear-gradient(0deg, #f6f9ff 0%, white 59%);
 }
 
 /* Category 07 is for any utility classes that are not assigned to a specific component. */

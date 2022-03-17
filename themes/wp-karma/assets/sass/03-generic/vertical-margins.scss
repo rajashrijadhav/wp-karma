@@ -95,12 +95,13 @@
 .wp-block-template-part > *,
 .wp-block-post-template :where(li > *) { // using :where keeps specificity low.
 
-	margin-top: 90px;
-	margin-bottom: 90px;
+	margin-top: calc(0.666 * var(--global--spacing-vertical));
+	margin-bottom: calc(0.666 * var(--global--spacing-vertical));
 
 	@include media(mobile) {
-		margin-top: 90px;
-		margin-bottom:90px;
+		margin-top: var(--global--spacing-vertical);
+		margin-bottom: var(--global--spacing-vertical);
+		
 	}
 
 	&:first-child {
@@ -170,4 +171,9 @@
 	&.alignfull + .alignright {
 		margin-top: var(--global--spacing-vertical);
 	}
+}
+
+.wp-block-group__inner-container {
+	margin-top: 90px;
+		margin-bottom: 90px;
 }
