@@ -5677,6 +5677,22 @@ h1.page-title {
 	background-image: linear-gradient(0deg, #f6f9ff 0%, white 59%);
 }
 
+.feature-tabs-container .wp-block-group__inner-container {
+	margin-bottom: 0 !important;
+}
+
+.team-container h5 {
+	margin-bottom: 0 !important;
+}
+
+.team-container p {
+	margin-top: 0 !important;
+}
+
+.team-container .team-columns {
+	margin-bottom: 70px;
+}
+
 /* Category 07 is for any utility classes that are not assigned to a specific component. */
 .screen-reader-text {
 	border: 0;
