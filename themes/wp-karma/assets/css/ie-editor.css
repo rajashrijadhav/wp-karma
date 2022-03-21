@@ -140,7 +140,7 @@ blockquote > *:last-child {
 
 blockquote p {
 	letter-spacing: normal;
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.25rem;
 	font-style: normal;
 	font-weight: 700;
@@ -349,7 +349,7 @@ a:hover {
 	border-radius: 0;
 	cursor: pointer;
 	font-weight: 500;
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
 	padding: 15px 30px;
@@ -617,6 +617,7 @@ a:hover {
 	max-width: inherit;
 	text-align: inherit;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-cover h2 {
@@ -632,6 +633,7 @@ a:hover {
 	max-width: inherit;
 	text-align: inherit;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-cover-image h2 {
@@ -816,7 +818,7 @@ a:hover {
 	border-radius: 0;
 	cursor: pointer;
 	font-weight: 500;
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
 	padding: 15px 30px;
@@ -944,7 +946,7 @@ h5,
 h6,
 .h6 {
 	clear: both;
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-weight: normal;
 }
 
@@ -1257,12 +1259,13 @@ h6,
 
 .wp-block-latest-posts > li > a {
 	display: inline-block;
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 2rem;
 	font-weight: normal;
 	line-height: 1.3;
 	margin-bottom: 10px;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-latest-posts > li > a {
@@ -1289,7 +1292,7 @@ h6,
 
 .wp-block-latest-posts .wp-block-latest-posts__post-excerpt,
 .wp-block-latest-posts .wp-block-latest-posts__post-full-content {
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.125rem;
 	line-height: 1.7;
 	margin-top: 20px;
@@ -1417,7 +1420,7 @@ h6,
 
 ul,
 ol {
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	margin: 30px 0;
 	padding-left: 50px;
 }
@@ -1442,7 +1445,7 @@ li > ol {
 }
 
 dt {
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-weight: bold;
 }
 
@@ -1482,7 +1485,7 @@ dt {
 }
 
 .wp-block-navigation .wp-block-navigation-link .wp-block-navigation-link__label {
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.25rem;
 	font-weight: normal;
 }
@@ -1540,7 +1543,7 @@ pre.wp-block-preformatted {
 }
 
 .wp-block-pullquote p {
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 2rem;
 	font-style: normal;
 	font-weight: 700;
@@ -1548,6 +1551,7 @@ pre.wp-block-preformatted {
 	line-height: 1.3;
 	margin: 0;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-pullquote p {
@@ -1605,6 +1609,7 @@ pre.wp-block-preformatted {
 .wp-block-pullquote.is-style-solid-color blockquote p {
 	font-size: 2rem;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-pullquote.is-style-solid-color blockquote p {
@@ -1647,7 +1652,7 @@ pre.wp-block-preformatted {
 }
 
 .wp-block-quote p {
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.25rem;
 	font-style: normal;
 	font-weight: 700;
@@ -1718,6 +1723,7 @@ pre.wp-block-preformatted {
 	font-style: normal;
 	line-height: 1.35;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-quote.is-large p {
@@ -1730,6 +1736,7 @@ pre.wp-block-preformatted {
 	font-style: normal;
 	line-height: 1.35;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-quote.is-style-large p {
@@ -1742,6 +1749,7 @@ pre.wp-block-preformatted {
 	line-height: 1.35;
 	left: -25px;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-quote.is-large:before {
@@ -1754,6 +1762,7 @@ pre.wp-block-preformatted {
 	line-height: 1.35;
 	left: -25px;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-quote.is-style-large:before {
@@ -1773,6 +1782,7 @@ pre.wp-block-preformatted {
 	line-height: 1.35;
 	margin-right: 10px;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-quote.is-large.has-text-align-right p:before {
@@ -1787,6 +1797,7 @@ pre.wp-block-preformatted {
 	line-height: 1.35;
 	margin-right: 10px;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-quote.is-style-large.has-text-align-right p:before {
@@ -1908,12 +1919,13 @@ pre.wp-block-preformatted {
 
 .wp-block-rss .wp-block-rss__item-title > a {
 	display: inline-block;
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 2rem;
 	font-weight: normal;
 	line-height: 1.3;
 	margin-bottom: 10px;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block-rss .wp-block-rss__item-title > a {
@@ -1940,7 +1952,7 @@ pre.wp-block-preformatted {
 
 .wp-block-rss .wp-block-rss__item-excerpt,
 .wp-block-rss .wp-block-rss__item-full-content {
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.125rem;
 	line-height: 1.7;
 	margin-top: 20px;
@@ -1985,7 +1997,7 @@ pre.wp-block-preformatted {
 .wp-block-search .wp-block-search__input {
 	border: 3px solid #999;
 	border-radius: 0;
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.125rem;
 	line-height: 1.7;
 	max-width: inherit;
@@ -2008,7 +2020,7 @@ pre.wp-block-preformatted {
 	border-radius: 0;
 	cursor: pointer;
 	font-weight: 500;
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
 	padding: 15px 30px;
@@ -2156,12 +2168,14 @@ hr[style*="text-align: right"] {
 .wp-block-separator:not(.is-style-dots) {
 	max-width: calc(100vw - 30px);
 }
+
 @media only screen and (min-width: 482px) {
 
 	.wp-block-separator:not(.is-style-dots) {
 		max-width: min(calc(100vw - 100px), 610px);
 	}
 }
+
 @media only screen and (min-width: 822px) {
 
 	.wp-block-separator:not(.is-style-dots) {
@@ -2172,12 +2186,14 @@ hr[style*="text-align: right"] {
 hr:not(.is-style-dots) {
 	max-width: calc(100vw - 30px);
 }
+
 @media only screen and (min-width: 482px) {
 
 	hr:not(.is-style-dots) {
 		max-width: min(calc(100vw - 100px), 610px);
 	}
 }
+
 @media only screen and (min-width: 822px) {
 
 	hr:not(.is-style-dots) {
@@ -2257,7 +2273,7 @@ table tfoot,
 
 table th,
 .wp-block-table th {
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 }
 
 table td,
@@ -2411,6 +2427,7 @@ pre.wp-block-verse {
 	font-size: 2.5rem;
 	line-height: 1.3;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .is-larger-text {
@@ -2422,6 +2439,7 @@ pre.wp-block-verse {
 	font-size: 2.5rem;
 	line-height: 1.3;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .has-larger-font-size {
@@ -2433,6 +2451,7 @@ pre.wp-block-verse {
 	font-size: 2.5rem;
 	line-height: 1.3;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .is-extra-large-text {
@@ -2444,6 +2463,7 @@ pre.wp-block-verse {
 	font-size: 2.5rem;
 	line-height: 1.3;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .has-extra-large-font-size {
@@ -2456,6 +2476,7 @@ pre.wp-block-verse {
 	line-height: 1.3;
 	font-weight: 300;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .is-huge-text {
@@ -2468,6 +2489,7 @@ pre.wp-block-verse {
 	line-height: 1.3;
 	font-weight: 300;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .has-huge-font-size {
@@ -2480,6 +2502,7 @@ pre.wp-block-verse {
 	line-height: 1.3;
 	font-weight: 300;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .is-gigantic-text {
@@ -2492,6 +2515,7 @@ pre.wp-block-verse {
 	line-height: 1.3;
 	font-weight: 300;
 }
+
 @media only screen and (min-width: 652px) {
 
 	:root .has-gigantic-font-size {
@@ -2524,11 +2548,12 @@ pre.wp-block-verse {
 
 .wp-block.editor-post-title__block .editor-post-title__input {
 	color: #999;
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 4rem;
 	font-weight: 300;
 	line-height: 1.1;
 }
+
 @media only screen and (min-width: 652px) {
 
 	.wp-block.editor-post-title__block .editor-post-title__input {
@@ -2537,7 +2562,7 @@ pre.wp-block-verse {
 }
 
 .wp-block.block-editor-default-block-appender > textarea {
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-size: 1.25rem;
 }
 
@@ -2593,12 +2618,14 @@ pre.wp-block-verse {
 .wp-block[data-align=wide] {
 	max-width: calc(100vw - 30px);
 }
+
 @media only screen and (min-width: 482px) {
 
 	.wp-block[data-align=wide] {
 		max-width: calc(100vw - 100px);
 	}
 }
+
 @media only screen and (min-width: 822px) {
 
 	.wp-block[data-align=wide] {
@@ -2609,12 +2636,14 @@ pre.wp-block-verse {
 .wp-block.alignwide {
 	max-width: calc(100vw - 30px);
 }
+
 @media only screen and (min-width: 482px) {
 
 	.wp-block.alignwide {
 		max-width: calc(100vw - 100px);
 	}
 }
+
 @media only screen and (min-width: 822px) {
 
 	.wp-block.alignwide {
@@ -2638,7 +2667,7 @@ pre.wp-block-verse {
 }
 
 .has-drop-cap:not(:focus)::first-letter {
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 	font-weight: normal;
 	line-height: 0.66;
 	text-transform: uppercase;
@@ -2682,7 +2711,7 @@ html {
 
 html,
 body {
-	font-family: Roboto, sans-serif;
+	font-family: roboto, sans-serif;
 }
 
 body {
