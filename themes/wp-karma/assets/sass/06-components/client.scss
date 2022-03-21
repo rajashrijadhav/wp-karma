@@ -1,0 +1,14 @@
+.trusted-clients {
+    .wp-block-columns {
+        margin: 100px 0;
+    }
+
+    img {
+        transition: all .3s ease-out;
+        opacity: .3;
+        &:hover {
+            opacity: 1;
+        } 
+    }
+   
+}

@@ -5657,21 +5657,17 @@ h1.page-title {
 	margin-bottom: 70px;
 }
 
-.team-container .wp-block-image {
-	height: 200px;
-
-	/* [1.1] Set it as per your need */
-	overflow: hidden;
+.trusted-clients .wp-block-columns {
+	margin: 100px 0;
 }
 
-.team-container .wp-block-image img {
-	transition: transform 0.5s, filter 1.5s ease-in-out;
-	filter: grayscale(100%);
+.trusted-clients img {
+	transition: all 0.3s ease-out;
+	opacity: 0.3;
 }
 
-.team-container .wp-block-image:hover img {
-	filter: grayscale(0);
-	transform: scale(1.1);
+.trusted-clients img:hover {
+	opacity: 1;
 }
 
 /* Category 07 is for any utility classes that are not assigned to a specific component. */
