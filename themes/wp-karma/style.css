@@ -5706,6 +5706,31 @@ h1.page-title {
 	opacity: 1;
 }
 
+.testimonials-slider .slide-content {
+	background: #fff !important;
+	margin: 0 20px !important;
+	transition: 0.2s all;
+	padding: 20px 25px !important;
+	border-bottom: 2px solid transparent;
+}
+
+.testimonials-slider .slide-content:hover {
+	box-shadow: 0 15px 30px 0 rgba(42, 116, 237, 0.1);
+	border-bottom: 2px solid #2a74ed;
+}
+
+.testimonials-slider .no-media-background {
+	margin: 0 20px !important;
+}
+
+.testimonials-slider .eedee-gutenslider-prev {
+	left: -50px !important;
+}
+
+.testimonials-slider .eedee-gutenslider-next {
+	right: -50px !important;
+}
+
 /* Category 07 is for any utility classes that are not assigned to a specific component. */
 .screen-reader-text {
 	border: 0;
