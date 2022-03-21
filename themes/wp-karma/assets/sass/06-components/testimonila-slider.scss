@@ -12,6 +12,7 @@
         transition: .2s all;
         padding: 20px 25px !important;
         border-bottom: 2px solid transparent;
+        justify-content: flex-start !important;
         &:hover {
             box-shadow: 0 15px 30px 0 rgb(42 116 237 / 10%);
             border-bottom: 2px solid #2a74ed;
@@ -25,12 +26,29 @@
     
     .eedee-gutenslider-prev {
         left: -50px !important;
+        //fill: rgba(42,116,237,.2) !important;
+        //stroke: rgba(42,116,237,.2) !important;
     }
 
     
     .eedee-gutenslider-next {
         right: -50px !important;
+       // fill: rgba(42,116,237,.2) !important;
+        //stroke: rgba(42,116,237,.2) !important;
     } 
+
+    
+    .eedee-gutenslider-nav {
+        .arrow {
+            fill: rgba(42,116,237,.2) !important;
+        }
+
+        &:hover .arrow {
+            fill: #2a74ed !important;
+            background-color: #fff !important;
+        }
+    }
+    
 }
 
 
