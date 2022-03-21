@@ -5693,6 +5693,19 @@ h1.page-title {
 	margin-bottom: 70px;
 }
 
+.trusted-clients .wp-block-columns {
+	margin: 100px 0;
+}
+
+.trusted-clients img {
+	transition: all 0.3s ease-out;
+	opacity: 0.3;
+}
+
+.trusted-clients img:hover {
+	opacity: 1;
+}
+
 /* Category 07 is for any utility classes that are not assigned to a specific component. */
 .screen-reader-text {
 	border: 0;
